@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yuliya-belikova/static/css/main.301fcaf7.css",
-    "main.js": "/yuliya-belikova/static/js/main.3f9ad458.js",
+    "main.css": "/yuliya-belikova/static/css/main.5d56fb61.css",
+    "main.js": "/yuliya-belikova/static/js/main.5d81e9f1.js",
     "static/js/453.e2d7b8b5.chunk.js": "/yuliya-belikova/static/js/453.e2d7b8b5.chunk.js",
     "static/media/home.jpg": "/yuliya-belikova/static/media/home.99e00ae4bd337af7e103.jpg",
     "static/media/makeup.jpg": "/yuliya-belikova/static/media/makeup.9329c58abe7916f5185d.jpg",
@@ -15,12 +15,12 @@
     "static/media/whatsapp.svg": "/yuliya-belikova/static/media/whatsapp.9756e16a73abaeaaba16ae20bce286b2.svg",
     "static/media/facebook.svg": "/yuliya-belikova/static/media/facebook.fbdd621e65e12f7c1efcb5882c776320.svg",
     "index.html": "/yuliya-belikova/index.html",
-    "main.301fcaf7.css.map": "/yuliya-belikova/static/css/main.301fcaf7.css.map",
-    "main.3f9ad458.js.map": "/yuliya-belikova/static/js/main.3f9ad458.js.map",
+    "main.5d56fb61.css.map": "/yuliya-belikova/static/css/main.5d56fb61.css.map",
+    "main.5d81e9f1.js.map": "/yuliya-belikova/static/js/main.5d81e9f1.js.map",
     "453.e2d7b8b5.chunk.js.map": "/yuliya-belikova/static/js/453.e2d7b8b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.301fcaf7.css",
-    "static/js/main.3f9ad458.js"
+    "static/css/main.5d56fb61.css",
+    "static/js/main.5d81e9f1.js"
   ]
 }
