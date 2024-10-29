@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/yuliya-belikova/static/css/main.301fcaf7.css",
+    "main.js": "/yuliya-belikova/static/js/main.3f9ad458.js",
+    "static/js/453.e2d7b8b5.chunk.js": "/yuliya-belikova/static/js/453.e2d7b8b5.chunk.js",
+    "static/media/home.jpg": "/yuliya-belikova/static/media/home.99e00ae4bd337af7e103.jpg",
+    "static/media/makeup.jpg": "/yuliya-belikova/static/media/makeup.9329c58abe7916f5185d.jpg",
+    "static/media/logo.svg": "/yuliya-belikova/static/media/logo.f953285c3b93b6f042c9cce6ff600d62.svg",
+    "static/media/Inriasans.woff2": "/yuliya-belikova/static/media/Inriasans.5d38d860d26f319dd776.woff2",
+    "static/media/telegram.svg": "/yuliya-belikova/static/media/telegram.85e7180f6e5acbeecd3f2f85b1f5ea5e.svg",
+    "static/media/phone.svg": "/yuliya-belikova/static/media/phone.f2c385854933cda6d48d78d6583a1592.svg",
+    "static/media/instagram.svg": "/yuliya-belikova/static/media/instagram.525828e255766de5676ebcdc4bee7d45.svg",
+    "static/media/email.svg": "/yuliya-belikova/static/media/email.41baf869e202aecacc5e750691c4e7c5.svg",
+    "static/media/lang.svg": "/yuliya-belikova/static/media/lang.8a52619709254c6df2ca35aa3c5cf1d3.svg",
+    "static/media/whatsapp.svg": "/yuliya-belikova/static/media/whatsapp.9756e16a73abaeaaba16ae20bce286b2.svg",
+    "static/media/facebook.svg": "/yuliya-belikova/static/media/facebook.fbdd621e65e12f7c1efcb5882c776320.svg",
+    "index.html": "/yuliya-belikova/index.html",
+    "main.301fcaf7.css.map": "/yuliya-belikova/static/css/main.301fcaf7.css.map",
+    "main.3f9ad458.js.map": "/yuliya-belikova/static/js/main.3f9ad458.js.map",
+    "453.e2d7b8b5.chunk.js.map": "/yuliya-belikova/static/js/453.e2d7b8b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.301fcaf7.css",
+    "static/js/main.3f9ad458.js"
+  ]
+}
