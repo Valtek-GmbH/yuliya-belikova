@@ -22,10 +22,10 @@ function Footer () {
                 <div className="footer-bottom row">
                     <div className="col-md-4">
                         <p>Change website language <span className="dropbtn" href='#'>Englisch</span> </p>
-                        <ul class="dropmenu">
-                            <li class="l"><a href="#">English</a></li>
-                            <li class="l"><a href="#">Русский</a></li>
-                            <li class="l"><a href="#">Deutsch</a></li>        
+                        <ul className="dropmenu">
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Русский</a></li>
+                            <li><a href="#">Deutsch</a></li>        
                         </ul>
                     </div>
                     <div className="col-md-4">
