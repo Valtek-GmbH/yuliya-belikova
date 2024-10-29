@@ -1,0 +1,43 @@
+import React from "react";
+import logo from '../assets/logo.svg';
+import Contacts from "./Contacts";
+import MenuFooter from "./MenuFooter";
+import RightsFooter from "./RightsFooter";
+import Social from "./Social";
+
+function Footer () {
+    return(
+        <div className="footer">
+            <div className="divider"></div>
+            <div className="logo-section">
+                <img className='logo logo-footer' src={logo} alt='Logo' />
+            </div>
+            <div className="footer-menu-section">
+                <div className="row">
+                    <Contacts />
+                    <MenuFooter />
+                    <RightsFooter />
+                </div>
+                <div className="divider"></div>
+                <div className="footer-bottom row">
+                    <div className="col-md-4">
+                        <p>Change website language <span className="dropbtn" href='#'>Englisch</span> </p>
+                        <ul class="dropmenu">
+                            <li class="l"><a href="#">English</a></li>
+                            <li class="l"><a href="#">Русский</a></li>
+                            <li class="l"><a href="#">Deutsch</a></li>        
+                        </ul>
+                    </div>
+                    <div className="col-md-4">
+                        Copyright
+                    </div>
+                    <div className="col-md-4">
+                        <Social />
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Footer;

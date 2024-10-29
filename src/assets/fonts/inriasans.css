@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Inria Sans';
+    src: local('Inria Sans Italic'), local('InriaSans-Italic'), url('Inriasansitalic.woff2') format('woff2'), url('Inriasansitalic.woff') format('woff'), url('Inriasansitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Inria Sans';
+    src: local('Inria Sans Light'), local('InriaSans-Light'), url('Inriasanslight.woff2') format('woff2'), url('Inriasanslight.woff') format('woff'), url('Inriasanslight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inria Sans';
+    src: local('Inria Sans'), local('InriaSans-Regular'), url('Inriasans.woff2') format('woff2'), url('Inriasans.woff') format('woff'), url('Inriasans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inria Sans';
+    src: local('Inria Sans Bold Italic'), local('InriaSans-BoldItalic'), url('Inriasansbolditalic.woff2') format('woff2'), url('Inriasansbolditalic.woff') format('woff'), url('Inriasansbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Inria Sans';
+    src: local('Inria Sans Bold'), local('InriaSans-Bold'), url('Inriasansbold.woff2') format('woff2'), url('Inriasansbold.woff') format('woff'), url('Inriasansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inria Sans';
+    src: local('Inria Sans Light Italic'), local('InriaSans-LightItalic'), url('Inriasanslightitalic.woff2') format('woff2'), url('Inriasanslightitalic.woff') format('woff'), url('Inriasanslightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
