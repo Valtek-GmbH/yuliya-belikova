@@ -1,15 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import homeimg from "../assets/home.jpg";
 import makeupImage from "../assets/makeup.jpg";
+import makeupCouchingImage from "../assets/makeup-couching.jpg";
+import lash from "../assets/lash.jpg";
+import curls from "../assets/curls.jpg";
+import straightening from "../assets/straightening.jpg";
+import styling from "../assets/styling.jpg";
+import collaboration from "../assets/collaboration.jpg";
+import Servicecard from "./Servicecard";
 
 function Homepage () {
     return(
       <div className="body-section">
-        <div className="home-description row">
-          <div className="col-md-6">
-            <img className="homeimg" src={homeimg} alt="service foto"/>
-          </div> 
-          <div className="home-text col-md-6">
+        <div className="home-description d-flex flex-row">
+          <img className="homeimg" src={homeimg} alt="service foto"/>
+          <div className="home-text">
             <p>My name is Yuliya Belikova, I am a makeup artist and hair stylist. I see the beauty in everyone and in my work I try to emphasize the natural beauty of each client. In the profession since 2019. I am constantly following the trends and new products of the beauty industry.</p> 
             <p>When you come to me, you:</p>
             <ul>
@@ -29,76 +36,13 @@ function Homepage () {
 
         <div className="home-services container">
           <div className="row row-gap-3 services-tile">
-            <div className="home-service col-xlg-3 col-lg-4 col-md-6 col-sm-12">
-              <img className="home-service-image" src={makeupImage} alt="makeup" />
-              <span className="service-caption">Make-Up</span>
-              <div className="container">
-                <div className="service-buttons row">
-                  <button className="btn col-sm-6">Portfolio</button>
-                  <button className="btn col-sm-6">Service</button>
-                </div>
-              </div>
-            </div>
-            <div className="home-service col-xlg-3 col-lg-4 col-md-6 col-sm-12">
-            <img className="home-service-image" src={makeupImage} alt="coaching" />
-              <span className="service-caption">Make-up Coaching</span>
-              <div className="container">
-                <div className="service-buttons row">
-                  <button className="btn col-sm-6">Portfolio</button>
-                  <button className="btn col-sm-6">Service</button>
-                </div>
-              </div>
-            </div>
-            <div className="home-service col-xlg-3 col-lg-4 col-md-6 col-sm-12">
-            <img className="home-service-image" src={makeupImage} alt="makeup" />
-              <span className="service-caption">Lash application</span>
-              <div className="container">
-                <div className="service-buttons row">
-                  <button className="btn col-sm-6">Portfolio</button>
-                  <button className="btn col-sm-6">Service</button>
-                </div>
-              </div>
-            </div>
-            <div className="home-service col-xlg-3 col-lg-4 col-md-6 col-sm-12">
-            <img className="home-service-image" src={makeupImage} alt="makeup" />
-              <span className="service-caption">Winding Curls</span>
-              <div className="container">
-                <div className="service-buttons row">
-                  <button className="btn col-sm-6">Portfolio</button>
-                  <button className="btn col-sm-6">Service</button>
-                </div>
-              </div>
-            </div>
-            <div className="home-service col-xlg-3 col-lg-4 col-md-6 col-sm-12">
-            <img className="home-service-image" src={makeupImage} alt="makeup" />
-              <span className="service-caption">Hair straightening</span>
-              <div className="container">
-                <div className="service-buttons row">
-                  <button className="btn col-sm-6">Portfolio</button>
-                  <button className="btn col-sm-6">Service</button>
-                </div>
-              </div>
-            </div>
-            <div className="home-service col-xlg-3 col-lg-4 col-md-6 col-sm-12">
-            <img className="home-service-image" src={makeupImage} alt="makeup" />
-              <span className="service-caption">Hairstyle</span>
-              <div className="container">
-                <div className="service-buttons row">
-                  <button className="btn col-sm-6">Portfolio</button>
-                  <button className="btn col-sm-6">Service</button>
-                </div>
-              </div>
-            </div>
-            <div className="home-service col-xlg-3 col-lg-4 col-md-6 col-sm-12">
-            <img className="home-service-image" src={makeupImage} alt="makeup" />
-              <span className="service-caption">Collaboration</span>
-              <div className="container">
-                <div className="service-buttons row">
-                  <button className="btn col-sm-6">Portfolio</button>
-                  <button className="btn col-sm-6">Service</button>
-                </div>
-              </div>
-            </div>
+            <Servicecard name="Make-Up" foto={makeupImage} linkPortfolio="/portfolio" linkService="/services" />
+            <Servicecard name="Make-up Coaching" foto={makeupCouchingImage} linkPortfolio="/portfolio" linkService="/services" />
+            <Servicecard name="Lash application" foto={lash} linkPortfolio="/portfolio" linkService="/services" />
+            <Servicecard name="Winding Curls" foto={curls} linkPortfolio="/portfolio" linkService="/services" />
+            <Servicecard name="Hair straightening" foto={straightening} linkPortfolio="/portfolio" linkService="/services" />
+            <Servicecard name="Hairstyle" foto={styling} linkPortfolio="/portfolio" linkService="/services" />
+            <Servicecard name="Partnership" foto={collaboration} linkPortfolio="/portfolio" linkService="/services" />
           </div>  
         </div>
       </div>

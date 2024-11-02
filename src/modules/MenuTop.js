@@ -20,7 +20,7 @@ function MenuTop (){
                     <Selectpicker />
                 </div>              
 
-                <button className="btn btn-outline-primary col-md-2 btn-appointment">APPOINTMENT</button>
+                <button className="btn btn-primary col-md-2 btn-appointment">APPOINTMENT</button>
 
             </div>
         </div>

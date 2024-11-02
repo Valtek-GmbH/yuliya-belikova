@@ -1,5 +1,5 @@
 {
-  "homepage": "https://valtek-gmbh.github.io/yuliya-belikova/",
+  "homepage": "https://valtek-gmbh.github.io/",
   "name": "yuliya-belikova",
   "version": "0.1.0",
   "private": true,
@@ -11,8 +11,10 @@
     "bootstrap": "^5.3.3",
     "gh-pages": "^6.2.0",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -41,5 +43,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Предоставить доступ к информации об услугах, которые предоставляет Юлия Беликова. А также дать возможность записываться клиентам, а также оплачиать услуги онлайн.\r ## Содержание сайта\r 1. Раздел \"Обо мне\"\r 2. Портфолио с выполненными работами и возможностью добавлять новые работы\r 3. Услуги, прайс, запись, онлайн-оплата\r 4. Раздел с коллоборациями: с фотографами, магазинами и пр. и возможностью добавлять новые работы\r 5. Советы\r 6. Онлайн уроки\r 7. Контакты\r 8. Обязательные разделы",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valtek-GmbH/yuliya-belikova.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valtek-GmbH/yuliya-belikova/issues"
   }
 }
