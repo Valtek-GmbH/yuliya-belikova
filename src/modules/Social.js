@@ -3,10 +3,14 @@ import telegram from "../assets/telegram.svg";
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import whatsapp from "../assets/whatsapp.svg";
+import tiktok from "../assets/tiktok.svg";
 
 function Social() {
     return (
         <>
+            <a href='https://www.tiktok.com/' target="_blank" rel="noreferrer">
+                <img className="link" src={tiktok} alt='Tiktok' />
+            </a>    
             <a href='https://web.telegram.org/' target="_blank" rel="noreferrer">
                 <img className="link" src={telegram} alt='Telegram' />
             </a>    

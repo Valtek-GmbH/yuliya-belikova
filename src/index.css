@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -18,6 +19,10 @@ code {
   background: rgba(235, 227, 219, 1);
   align-content: center;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .logo {
@@ -34,15 +39,19 @@ code {
   align-content: center;
 }
 
-.nav-item {
+.nav-link, .nav-item {
   text-decoration: none;
   color: black;
   opacity: 50%;
   width: 20%;
 }
 
-.nav-item:hover {
+.nav-link:hover, .nav-item:hover {
   opacity: 75%;
+}
+
+.nav-link-selected {
+  opacity: 100%;
 }
 
 .navbar {
@@ -144,7 +153,7 @@ code {
 
 /* HOME */
 .body-section {
-  padding-top: 20px;
+  padding-top: calc(96px + 80px);
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -158,10 +167,11 @@ code {
 .homeimg {
   max-height: 500px;
   float: left;
+  margin-left: 20px;
 }
 
 .home-services {
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 .services-tile {
@@ -239,4 +249,42 @@ code {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+.splitter {
+  border-top: solid 1px #A48374;
+  width: 50%;
+  margin: 16px auto;
+}
+
+.service-odd {
+  background-color: rgba(235, 227, 219, 1);
+  padding: 8px;
+}
+
+.services-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.tips-text {
+  text-align: justify;
+  list-style-type: none;
+}
+
+.tips-img {
+  max-width: 220px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.tips-caption {
+  color: rgba(235, 227, 219, 1) !important;
+}
+
+.accordion {
+  --bs-accordion-btn-bg: rgba(235, 227, 219, 1) !important;
+  --bs-accordion-active-bg: #a48374 !important;
+  --bs-accordion-active-color: white !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
 }

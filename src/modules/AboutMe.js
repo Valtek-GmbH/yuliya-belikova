@@ -1,5 +1,6 @@
 import React from "react";
 import aboutimg from "../assets/about.jpg";
+import doc from "../assets/doc.pdf";
 
 function AboutMe () {
     return(
@@ -23,6 +24,7 @@ function AboutMe () {
             </ul>   
           </div> 
         </div>
+        <embed src={doc} width="800px" height="2100px" />
       </div>  
     );
 }

@@ -1,14 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function MenuBottom () {
     return (
         <nav className='navbar'>
-            <Link to='/' className='nav-item'>HOME</Link>
-            <Link to='/about' className='nav-item'>ABOUT ME</Link>
-            <Link to='/portfolio' className='nav-item'>PORTFOLIO</Link>
-            <Link to='/services' className='nav-item'>SERVICES</Link>
-            <Link to='/tips' className='nav-item'>TIPS</Link>
+            <NavLink to='/' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>HOME</NavLink>
+            <NavLink to='/about' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>ABOUT ME</NavLink>
+            <NavLink to='/portfolio' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>PORTFOLIO</NavLink>
+            <NavLink to='/services' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>SERVICES</NavLink>
+            <NavLink to='/tips' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>TIPS</NavLink>
         </nav>
     );
 }

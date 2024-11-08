@@ -58,7 +58,7 @@ function Portfolio () {
           <FotosPortfolio fotos={fotoArray} onClick={handleShow} />
           <Modal size="xl" show={show} onHide={handleClose}>
             <Modal.Header closeButton />
-            <Modal.Body>
+            <Modal.Body className="d-flex">
               <img id="bigfoto" src={portfolio} className="big-foto" alt="bigfoto"/>
             </Modal.Body>
           </Modal>
