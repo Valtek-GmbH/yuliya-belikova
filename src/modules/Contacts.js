@@ -17,7 +17,7 @@ function Contacts () {
                 </li>
                 <li className="nav-item footer-item">
                     <img className="contact-image" src={whatsapp} alt="whatsapp" />
-                    <a className="contact-link" href="https://api.whatsapp.com/send/?phone=06603910171" target="_blank" rel="noreferrer">WhatsApp</a>
+                    <a className="contact-link" href="https://wa.me/436603910171" target="_blank" rel="noreferrer">WhatsApp</a>
                 </li>
             </ul>
         </div>
