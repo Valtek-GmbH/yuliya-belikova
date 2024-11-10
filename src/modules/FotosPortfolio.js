@@ -4,7 +4,7 @@ function FotosPortfolio (props) {
     let fotoPortfolio = props.fotos.map ((foto) => {
         return(
           <div className="portfolio-foto col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <img className="portfolio-image" src={foto} alt="foto"  onClick={(e) => props.onClick(e, foto)} />
+            <img className="portfolio-image" src={foto.preview} alt="foto"  onClick={(e) => props.onClick(e, foto.foto)} />
           </div>                
         );            
     });

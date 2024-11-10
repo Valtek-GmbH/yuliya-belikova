@@ -168,6 +168,8 @@ code {
   max-height: 500px;
   float: left;
   margin-left: 20px;
+  object-fit: cover;
+
 }
 
 .home-services {
@@ -176,6 +178,7 @@ code {
 
 .services-tile {
   margin-bottom: 12px;
+  min-height: 440px;
 }
 
 .home-service {

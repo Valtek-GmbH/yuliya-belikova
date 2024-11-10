@@ -24,7 +24,7 @@ function AboutMe () {
             </ul>   
           </div> 
         </div>
-        <embed src={doc} width="800px" height="2100px" />
+        {/* <embed src={doc} width="800px" height="2100px" /> */}
       </div>  
     );
 }
