@@ -63,17 +63,15 @@ let data = {
 
 function Services () {
     let services = data.services.map ((service, index) => {
-      let pstn = 'd-flex';
-      if (index % 2 === 0) {
-        pstn = 'd-flex flex-row';
-      } else {
-        pstn = 'd-flex flex-row-reverse service-odd';
+      let pstn = 'service row';
+      if (index % 2 !== 0) {
+        pstn = pstn + ' service-odd';
       }; 
       return(
-        <div className="services-container">
+        <div className="container services-container">
         <div className={pstn} key={service.id} id={service.id}>
-          <img className="homeimg" src={service.foto} alt={service.id}/>
-          <div className="home-text">
+          <img className="homeimg col-md-4" src={service.foto} alt={service.id}/>
+          <div className="home-text col-md-7">
             <h1>{service.name}</h1>
             <p>My name is Yuliya Belikova, I am a makeup artist and hair stylist. I see the beauty in everyone and in my work I try to emphasize the natural beauty of each client. In the profession since 2019. I am constantly following the trends and new products of the beauty industry.</p> 
             <p>When you come to me, you:</p>

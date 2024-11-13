@@ -16,7 +16,7 @@ function Tips () {
         <Accordion.Body>
           <div className="container">
             <div className="row">
-              <div className="col-12">
+              <div className="row col-12">
                 <img src={removestart} alt="remove start" className="tips-img float-start imgshadow" />
                 <span className="tips-text">
                   <p>
@@ -150,7 +150,7 @@ function Tips () {
         <Accordion.Body>
         <div className="container">
             <div className="row">
-              <div className="col-12">
+              <div className="row col-12">
                 <img src={tipsfoto} alt="before foto" className="tips-img float-start imgshadow" />
                 <ul className="tips-text">
                   <li>
@@ -202,7 +202,7 @@ function Tips () {
         <Accordion.Body>
         <div className="container">
             <div className="row">
-              <div className="col-12">
+              <div className="row col-12">
                 <img src={tipsbride} alt="for bride" className="tips-img float-start imgshadow" />
                 <ul className="tips-text">
                   <li>

@@ -87,6 +87,31 @@
   padding: 0;
 }
 
+.services-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 0;
+}
+
+.tips-img {
+  max-width: 375px;
+  margin: 0 auto 16px;
+  align-self: center;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.menu-button {
+  height: 32px;
+  width: 32px;
+  vertical-align: top;
+  padding: 0;
+  margin: auto;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -104,13 +129,13 @@
 } 
 
 @media (min-width: 1400px) {
-  .footer-menu-section {
+  .footer-menu-section, .services-container {
       max-width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
-  .footer-menu-section {
+  .footer-menu-section, .services-container {
       max-width: 100%;
   }
 }
@@ -119,7 +144,7 @@
   .telefon-img {
     display: none;
   }
-  .footer-menu-section {
+  .footer-menu-section, .services-container {
     max-width: 100%;
   }
 }
@@ -134,7 +159,7 @@
   .img-appointment, .menu-button, .divider-short{
     display: none;
   }
-  .footer-menu-section {
+  .footer-menu-section, .services-container {
     max-width: 100%;
   }
 }
@@ -155,10 +180,17 @@
   .navbar, .language-image, .appointment {
     display: none;
   }
+  .service {
+    flex-direction: column-reverse;
+  }
+  .homeimg {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 }
 
 @media (min-width: 576px) {
-  .footer-menu-section {
+  .footer-menu-section, .services-container {
     max-width: 100%;
   }
 }

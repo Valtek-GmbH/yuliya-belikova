@@ -1,13 +1,13 @@
 import React from "react";
 import aboutimg from "../assets/about.jpg";
-import doc from "../assets/doc.pdf";
+// import doc from "../assets/doc.pdf";
 
 function AboutMe () {
     return(
-      <div className="body-section">
-        <div className="home-description d-flex flex-row">
-          <img className="homeimg" src={aboutimg} alt="service foto"/>
-          <div className="home-text">
+      <div className="container body-section">
+        <div className="row d-flex flex-row home-description">
+          <img className="homeimg col-xxl-3 col-md-4" src={aboutimg} alt="service foto"/>
+          <div className="home-text col-xxl-8 col-md-7">
             <p>My name is Yuliya Belikova, I am a makeup artist and hair stylist. I see the beauty in everyone and in my work I try to emphasize the natural beauty of each client. In the profession since 2019. I am constantly following the trends and new products of the beauty industry.</p> 
             <p>When you come to me, you:</p>
             <ul>

@@ -1,11 +1,10 @@
 import React from "react";
 import { ButtonGroup, Dropdown, DropdownButton } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { MenuUp } from "react-bootstrap-icons";
 
 import Selectpicker from "./Selectpicker";
 import Social from "./Social";
-
-// import language from "../assets/lang.svg";
 
 function MenuTop (){
     return (
@@ -24,18 +23,16 @@ function MenuTop (){
                 </div>
 
                 <div className="float-right col-2 language-selector">
-                    {/* <img src={language} className="col-md-3 language-image" alt="language" /> */}
                     <Selectpicker />
                 </div> 
-
-                <DropdownButton className="menu-button col-1" as={ButtonGroup}>
+                
+                <DropdownButton className="menu-button col-2" as={ButtonGroup} title={<MenuUp />}>
                     <Dropdown.Item eventKey="1"><NavLink to='/' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>HOME</NavLink></Dropdown.Item>
                     <Dropdown.Item eventKey="2"><NavLink to='/about' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>ABOUT ME</NavLink></Dropdown.Item>
                     <Dropdown.Item eventKey="3"><NavLink to='/portfolio' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>PORTFOLIO</NavLink></Dropdown.Item>
                     <Dropdown.Item eventKey="4"><NavLink to='/services' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>SERVICES</NavLink></Dropdown.Item>
                     <Dropdown.Item eventKey="5"><NavLink to='/tips' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>TIPS</NavLink></Dropdown.Item>
                 </DropdownButton>
-            
             </div>
         </div>
     );

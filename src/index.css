@@ -161,7 +161,7 @@ code {
   max-height: 500px;
   float: left;
   object-fit: cover;
-
+  margin: auto;
 }
 
 .home-services {
@@ -250,25 +250,19 @@ code {
   margin: 16px auto;
 }
 
-.service-odd {
-  background-color: rgba(235, 227, 219, 1);
-  padding: 8px;
+.service {
+  padding: 8px 5%;
+  margin: 0 !important;
 }
 
-.services-container {
-  margin-top: 16px;
-  margin-bottom: 16px;
+.service-odd {
+  background-color: rgba(235, 227, 219, 1);
+  flex-direction: row-reverse;
 }
 
 .tips-text {
   text-align: justify;
   list-style-type: none;
-}
-
-.tips-img {
-  max-width: 220px;
-  margin-right: 16px;
-  margin-bottom: 16px;
 }
 
 .tips-caption {
@@ -284,9 +278,4 @@ code {
 
 .social, .contact, .appointment {
   align-content: center;
-}
-
-.menu-button {
-  height: 24px;
-  padding: 0 12px;
 }
