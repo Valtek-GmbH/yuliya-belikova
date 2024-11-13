@@ -104,6 +104,18 @@
   display: none;
 }
 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  cursor: pointer;
+}
+
+.menu-button>.btn {
+  padding: 0;
+}
+
 .menu-button {
   height: 32px;
   width: 32px;
