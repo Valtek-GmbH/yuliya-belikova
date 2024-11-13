@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function RightsFooter () {
     return (
-        <div className="col-md-4">
+        <div className="footer-menu-col col-md-4">
             <ul className="nav flex-column">
                 <li className="footer-item">
                     <Link to='/' className='nav-item'>IMPRESSUM</Link>

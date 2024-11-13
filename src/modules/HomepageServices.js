@@ -11,7 +11,7 @@ const HomepageServices = function (props) {
 
     return(
       <div className="home-services container">
-        <div className="row row-gap-3 services-tile">
+        <div className="row services-tile">
           {services}
         </div>  
       </div>

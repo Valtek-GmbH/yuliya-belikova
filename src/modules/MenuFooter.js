@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function MenuFooter () {
     return(
-        <div className="col-md-4">
+        <div className="footer-menu-col col-md-2">
             <ul className="nav flex-column">
                 <li className="footer-item">
                     <Link to='/' className='nav-item'>HOME</Link>
@@ -21,6 +21,7 @@ function MenuFooter () {
                     <Link to='/tips' className='nav-item'>TIPS</Link> 
                 </li>
             </ul>
+            <div className="divider divider-short"></div>
         </div>
     );
 }

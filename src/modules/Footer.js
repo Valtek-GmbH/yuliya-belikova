@@ -10,17 +10,19 @@ function Footer () {
         <div className="footer">
             <div className="divider"></div>
             <div className="logo-section">
-                <img className='logo logo-footer' src={logo} alt='Logo' />
+                <img className='logo-footer' src={logo} alt='Logo' />
             </div>
-            <div className="footer-menu-section">
+            <div className="container footer-menu-section">
                 <div className="row">
                     <Contacts />
+                    
                     <MenuFooter />
+                    
                     <RightsFooter />
                 </div>
                 <div className="divider"></div>
                 <div className="footer-bottom row">
-                    <div className="col-md-4">
+                    <div className="footer-menu-col col-md-4">
                         <p>Change website language <span className="dropbtn" href='#'>Englisch</span> </p>
                         <ul className="dropmenu">
                             <li><a href="#">English</a></li>
@@ -28,10 +30,10 @@ function Footer () {
                             <li><a href="#">Deutsch</a></li>        
                         </ul>
                     </div>
-                    <div className="col-md-4">
+                    <div className="footer-menu-col col-md-4">
                         Copyright
                     </div>
-                    <div className="col-md-4">
+                    <div className="footer-menu-col col-md-4">
                         <Social />
                     </div>
                 </div>

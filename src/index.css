@@ -27,16 +27,12 @@ code {
 
 .logo {
   height: 96px;
+  width: 100%;
   margin-left: 0;
 }
 
 .menu-top {
-  font-size: 1.2em;
   margin: 0 100px;
-}
-
-.menu {
-  align-content: center;
 }
 
 .nav-link, .nav-item {
@@ -74,16 +70,10 @@ code {
   align-self: center;
 }
 
-.language-selector {
-  align-content: center;
-}
-
 .selectpicker {
   background: rgba(235, 227, 219, 1);
-}
-
-.btn-appointment {
-  margin-left: 15px;
+  width: 48px;
+  border: 0;
 }
 
 /* FOOTER */
@@ -91,6 +81,12 @@ code {
   width: 90%;
   border-top: black 1px solid;
   margin: 20px auto 0;
+}
+
+.divider-short {
+  width: 30%;
+  margin: 8px auto;
+
 }
 
 .logo-footer {
@@ -119,8 +115,6 @@ code {
 }
 
 .footer-item {
-  text-align: left;
-  padding-left: 35%;
   width: auto;
 }
 
@@ -161,14 +155,11 @@ code {
 
 .home-text {
   text-align: justify;
-  margin-left: 24px;
-  margin-right: 12px;
 }
 
 .homeimg {
   max-height: 500px;
   float: left;
-  margin-left: 20px;
   object-fit: cover;
 
 }
@@ -183,9 +174,7 @@ code {
 }
 
 .home-service {
-  position: relative;
-  overflow: hidden;
-  padding: 0;
+  border: solid 6px white;
 }
 
 .home-service-image {
@@ -198,8 +187,8 @@ code {
 .service-caption {
   position: absolute;
   top: 0;
-  left: 12px;
-  width: calc(100% - 24px);
+  left: 0;
+  width: 100%;
   text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
@@ -211,8 +200,8 @@ code {
 .service-buttons {
   position: absolute;
   bottom: 0;
-  left: 24px;
-  width: calc(100% - 24px);
+  /* left: 0; */
+  width: 100%;
   text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
@@ -291,4 +280,13 @@ code {
   --bs-accordion-active-bg: #a48374 !important;
   --bs-accordion-active-color: white !important;
   --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.social, .contact, .appointment {
+  align-content: center;
+}
+
+.menu-button {
+  height: 24px;
+  padding: 0 12px;
 }

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function MenuBottom () {
     return (
-        <nav className='navbar'>
+        <nav className='navbar navbar-expand-md'>
             <NavLink to='/' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>HOME</NavLink>
             <NavLink to='/about' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>ABOUT ME</NavLink>
             <NavLink to='/portfolio' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>PORTFOLIO</NavLink>

@@ -1,11 +1,11 @@
 import React from "react";
 import email from "../assets/email.svg";
-import phone from "../assets/phone.svg";
+import phone from "../assets/phone-top.svg";
 import whatsapp from "../assets/whatsapp.svg";
 
 function Contacts () {
     return (
-        <div className="col-md-4">
+        <div className="footer-menu-col col-md-6">
             <ul className="nav flex-column">
                 <li className="nav-item footer-item">
                     <img className="contact-image" src={email} alt='email' />
@@ -20,6 +20,7 @@ function Contacts () {
                     <a className="contact-link" href="https://wa.me/436603910171" target="_blank" rel="noreferrer">WhatsApp</a>
                 </li>
             </ul>
+            <div className="divider divider-short"></div>
         </div>
     );
 }
