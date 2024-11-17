@@ -85,7 +85,6 @@ function Portfolio () {
 
     const handleClose = () => setShow(false);
     const handleShow = function(e, foto) {
-      console.log(foto);
       setPortfolio(foto);
       setShow(true);
     }

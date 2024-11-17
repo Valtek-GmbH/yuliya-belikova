@@ -279,3 +279,12 @@ code {
 .social, .contact, .appointment {
   align-content: center;
 }
+
+.btn-download {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+}
