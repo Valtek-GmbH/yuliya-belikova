@@ -6,7 +6,7 @@ import { MenuUp } from "react-bootstrap-icons";
 import Selectpicker from "./Selectpicker";
 import Social from "./Social";
 
-function MenuTop (){
+function MenuTop (props){
     return (
         <div className="container menu-top"> 
             <div className="row">
@@ -23,7 +23,7 @@ function MenuTop (){
                 </div>
 
                 <div className="float-right col-2 language-selector">
-                    <Selectpicker />
+                    <Selectpicker onChangeLanguage={(value) => props.onChangeLanguage(value)} />
                 </div> 
                 
                 <DropdownButton className="menu-button col-2" as={ButtonGroup} title={<MenuUp />}>

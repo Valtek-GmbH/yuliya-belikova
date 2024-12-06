@@ -6,7 +6,7 @@ import MenuTop from "./MenuTop";
 
 import logo from '../assets/logo.svg';
 
-function Header(){
+function Header(props){
     return(
         <div className="header">
             <div className='row'>
@@ -14,7 +14,7 @@ function Header(){
                     <img className='logo' src={logo} alt='Logo' />
                 </Link>
                 <div className="menu col-md-8">
-                    <MenuTop />
+                    <MenuTop onChangeLanguage={(value) => props.onChangeLanguage(value)}/>
                     <MenuBottom />
                 </div>
     
