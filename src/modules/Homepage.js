@@ -1,76 +1,17 @@
 import React from "react";
 
-  import makeupImage from "../assets/makeup.jpg";
-  import makeupCouchingImage from "../assets/makeup-couching.jpg";
-  import lash from "../assets/lash.jpg";
-  import curls from "../assets/curls.jpg";
-  import straightening from "../assets/straightening.jpg";
-  import styling from "../assets/styling.jpg";
-  import collaboration from "../assets/collaboration.jpg";
-
 import homeimg from "../assets/home.jpg";
 import HomepageServices from "./HomepageServices";
 
-let data = {
-  "services":[
-      {
-          "id": "makeup",
-          "name": "Make-Up",
-          "foto": makeupImage,
-          "linkPortfolio": "/portfolio",
-          "linkService": "/services"
-      },
-      {
-          "id": "makeup-couching",
-          "name": "Make-Up Coaching",
-          "foto": makeupCouchingImage,
-          "linkPortfolio": "/portfolio",
-          "linkService": "/services"
-      },
-      {
-          "id": "lash",
-          "name": "Lash application",
-          "foto": lash,
-          "linkPortfolio": "/portfolio",
-          "linkService": "/services"
-      },
-      {
-          "id": "curls",
-          "name": "Winding Curls",
-          "foto": curls,
-          "linkPortfolio": "/portfolio",
-          "linkService": "/services"
-      },
-      {
-          "id": "straightening", 
-          "name": "Hair straightening",
-          "foto": straightening,
-          "linkPortfolio": "/portfolio",
-          "linkService": "/services"
-      },
-      {
-          "id": "styling",
-          "name": "Hairstyle",
-          "foto": styling,
-          "linkPortfolio": "/portfolio",
-          "linkService": "/services"
-      },
-      {
-          "id": "collaboration",
-          "name": "Partnership",
-          "foto": collaboration,
-          "linkPortfolio": "/portfolio",
-          "linkService": "/services"
-      }
-]}
+import data from "../assets/data/services";
 
 function Homepage () {
   return(
     <div className="container body-section">
       <div className="row d-flex flex-row home-description">
-        <img className="homeimg col-xxl-3 col-md-4" src={homeimg} alt="service foto"/>
-        <div className="home-text col-xxl-8 col-md-7">
-          <p>If you need a beautiful, modern makeup and hairstyle, you are in the right place!</p> 
+        <img className="homeimg col-md-6" src={homeimg} alt="service foto"/>
+        <div className="home-text col-md-6">
+          <p>If you need a beautiful, modern makeup and hairstyle, you are in the right place!</p>
           <p>The principles of my work are to emphasize your strengths, to charge you with self-love and self-confidence throughout the day. To provide a high-quality service for a comfortable time and optimal cost.</p>
           <p>To inspire you to further transform.</p>
         </div> 

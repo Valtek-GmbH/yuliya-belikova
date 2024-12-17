@@ -15,18 +15,6 @@ import urkunde3 from "../assets/documents/Urkunde Make-up School Moskow 3 Previe
 
 const docdata = [
     {
-        id: "certificate1",
-        name: "Sofya Baburina",
-        preview: certificate1,
-        link: "http://valtek.liveblog365.com/documents/Certificate1.pdf"
-    },
-    {
-        id: "certificate2",
-        name: "Serdar Kambarov",
-        preview: certificate2,
-        link: "http://valtek.liveblog365.com/documents/Certificate2.pdf"
-    },
-    {
         id: "diplomWiFi",
         name: "Diplom WIFI",
         preview: diplomWiFi,
@@ -49,6 +37,18 @@ const docdata = [
         name: "Diplom",
         preview: diplom,
         link: "http://valtek.liveblog365.com/documents/DiplomYuliyaVagizova.pdf"
+    },
+    {
+        id: "certificate1",
+        name: "Sofya Baburina",
+        preview: certificate1,
+        link: "http://valtek.liveblog365.com/documents/Certificate1.pdf"
+    },
+    {
+        id: "certificate2",
+        name: "Serdar Kambarov",
+        preview: certificate2,
+        link: "http://valtek.liveblog365.com/documents/Certificate2.pdf"
     },
     {
         id: "referenzKMD",

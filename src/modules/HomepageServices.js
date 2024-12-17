@@ -3,9 +3,8 @@ import Servicecard from "./Servicecard";
 
 const HomepageServices = function (props) {
     let services = props.services.map ((service) => { 
-        let linkService = `${service.linkService}#${service.id}`; 
         return(
-          <Servicecard key={service.id} name={service.name} foto={service.foto} linkPortfolio={service.linkPortfolio} linkService={linkService} />
+          <Servicecard key={service.id} name={service.name} foto={service.foto} linkPortfolio={service.linkPortfoliolinkService} linkService={service.linkService} serviceId={service.id} />
         )
     });
 
