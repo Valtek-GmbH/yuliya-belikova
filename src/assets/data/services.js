@@ -39,7 +39,8 @@ var data = {
         "name": "Creative makeup",
         "foto": creative,
         "linkPortfolio": "/portfolio",
-        "linkService": "/services"
+        "linkService": "/services",
+        "description": "Unusual makeup for a special occasion. It will emphasize your personality, help you remember or match the moment/event."
     },
     {
             "id": "makeup-couching",
