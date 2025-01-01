@@ -7,50 +7,16 @@ import Portfolio from './modules/Portfolio';
 import Services from './modules/Services';
 import Tips from './modules/Tips';
 import Footer from './modules/Footer';
+import LanguageWrapper from './modules/LanguageWrapper'; 
 import './bootstrap/css/bootstrap.min.css';
 import './index.css';
 import './App.css';
 
 function App() {
-    /*==========================================================================
-        LANGUAGE 
-    ==========================================================================*/
-// Function to set the language preference
-  const [lang, setLang] = React.useState('en');
-
-  function updateContent(langData) {
-    document.querySelectorAll('[data-lang]').forEach(element => {
-        const key = element.getAttribute('data-lang');
-        element.textContent = langData[key];
-    });
-  }
-
-  // // Function to set the language preference
-  // function setLanguagePreference() {
-  //   localStorage.setItem('language', lang);
-  //   // document.reload();
-  // }
-
-  // Function to fetch language data
-  async function fetchLanguageData() {
-    const path = require(`./assets/language/${lang}.json`);
-    const response = await fetch(path);
-    return response.json();
-  }   
-
-  // Function to change 
-  async function changeLanguage(lang) {
-    console.log(lang);
-    setLang(lang.toLowerCase());
-    // await setLanguagePreference();
-    
-    const langData = await fetchLanguageData();
-    updateContent(langData);
-  }
-
   return (
+    <LanguageWrapper>
     <div className="App">
-      <Header onChangeLanguage={changeLanguage} />
+      <Header />
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about' element={<AboutMe />} />
@@ -58,8 +24,9 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/tips' element={<Tips />} />
       </Routes>
-      <Footer onChangeLanguage={changeLanguage} />
+      <Footer />
     </div>
+    </LanguageWrapper>
   );
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FormattedMessage } from "react-intl";
 
 const Servicecard = function (props) {
     return(
@@ -11,8 +12,12 @@ const Servicecard = function (props) {
         <span className="service-caption">{props.name}</span>
         <div className="container">
           <div className="service-buttons row">
-            <Link to={props.linkPortfolio} className="btn col-6">Portfolio</Link>
-            <Link to={{pathname: props.linkService, hash: "#"+props.serviceId}} className="btn col-6">Service</Link>
+            <Link to={props.linkPortfolio} className="btn col-6">
+              <FormattedMessage id="menu.portfolio" defaultMessage="Portfolio" />
+            </Link>
+            <Link to={{pathname: props.linkService, hash: "#"+props.serviceId}} className="btn col-6">
+              <FormattedMessage id="menu.services" defaultMessage="Services" />
+            </Link>
           </div>
         </div>
       </div>
