@@ -23,7 +23,7 @@ function MenuTop (props){
                 </div>
 
                 <div className="float-right col-2 language-selector">
-                    <Selectpicker onChangeLanguage={(value) => props.onChangeLanguage(value)} />
+                    <Selectpicker />
                 </div> 
                 
                 <DropdownButton className="menu-button col-2" as={ButtonGroup} title={<MenuUp />}>

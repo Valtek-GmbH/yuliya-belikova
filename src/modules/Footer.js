@@ -1,9 +1,12 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
+
 import logo from '../assets/logo.svg';
 import Contacts from "./Contacts";
 import MenuFooter from "./MenuFooter";
 import RightsFooter from "./RightsFooter";
 import Social from "./Social";
+import { SelectpickerFooter } from "./Selectpicker";
 
 function Footer () {
     return(
@@ -23,15 +26,10 @@ function Footer () {
                 <div className="divider"></div>
                 <div className="footer-bottom row">
                     <div className="footer-menu-col col-md-4">
-                        <p>Change website language <span className="dropbtn" href='#'>Englisch</span> </p>
-                        <ul className="dropmenu">
-                            <li><a href="#">English</a></li>
-                            <li><a href="#">Русский</a></li>
-                            <li><a href="#">Deutsch</a></li>        
-                        </ul>
+                        <span><FormattedMessage id="footer.language" defaultMessage="Change website language " /><SelectpickerFooter /> </span>
                     </div>
                     <div className="footer-menu-col col-md-4">
-                        Copyright
+                        <span><FormattedMessage id="footer.copyright" defaultMessage="Designed by " /><a className="link" href="https://www.valtek.at" target="_blank" rel="noreferrer">Valtek GmbH</a> </span>
                     </div>
                     <div className="footer-menu-col col-md-4">
                         <Social />
