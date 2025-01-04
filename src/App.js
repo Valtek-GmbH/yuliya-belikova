@@ -1,5 +1,6 @@
 import {Routes, Route} from 'react-router-dom';
 import React from 'react';
+import TagManager from 'react-gtm-module';
 import Header from './modules/Header';
 import Homepage from './modules/Homepage';
 import AboutMe from './modules/AboutMe';
@@ -12,6 +13,13 @@ import './index.css';
 import './App.css';
 
 function App() {
+  /* Google Statistic */
+  React.useEffect(() => {
+    const tagManagerArgs = {
+        gtmId: 'G-J4PK9E6PM3'
+    };
+    TagManager.initialize(tagManagerArgs);
+  }, []);   
     /*==========================================================================
         LANGUAGE 
     ==========================================================================*/
