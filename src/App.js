@@ -8,6 +8,7 @@ import Portfolio from './modules/Portfolio';
 import Services from './modules/Services';
 import Tips from './modules/Tips';
 import Footer from './modules/Footer';
+import LanguageWrapper from './modules/LanguageWrapper'; 
 import './bootstrap/css/bootstrap.min.css';
 import './index.css';
 import './App.css';
@@ -57,8 +58,9 @@ function App() {
   }
 
   return (
+    <LanguageWrapper>
     <div className="App">
-      <Header onChangeLanguage={changeLanguage} />
+      <Header />
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about' element={<AboutMe />} />
@@ -66,8 +68,9 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/tips' element={<Tips />} />
       </Routes>
-      <Footer onChangeLanguage={changeLanguage} />
+      <Footer />
     </div>
+    </LanguageWrapper>
   );
 }
 

@@ -1,9 +1,22 @@
 import React from "react";
 
 import data from "../assets/data/services";
+import {LanguageContext} from "./LanguageWrapper";
 
 function Services () {
-    let services = data.services.map ((service, index) => {
+  const languageContext = React.useContext(LanguageContext);
+  let servicesData;
+  if (languageContext.locale === 'en') {
+    servicesData = data.services_en;
+  } else {
+    if (languageContext.locale === 'ru') {
+      servicesData = data.services_ru;
+    } else {
+      servicesData = data.services_de;
+    }
+  }
+
+  let services = servicesData.map ((service, index) => {
       let pstn = 'service row';
       if (index % 2 !== 0) {
         pstn = pstn + ' service-odd';
@@ -22,7 +35,6 @@ function Services () {
               </div>
             </div> 
         </div>  
-        {/* <div className="splitter"></div> */}
         </div>      
       )
     });
