@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.101169ca.css",
+    "main.css": "/static/css/main.b58472f5.css",
     "main.js": "/static/js/main.33106be4.js",
     "static/js/453.f107972d.chunk.js": "/static/js/453.f107972d.chunk.js",
     "static/media/about.jpg": "/static/media/about.a3fa493080658cbaa501.jpg",
@@ -51,6 +51,7 @@
     "static/media/portfolio11-preview.jpg": "/static/media/portfolio11-preview.e9dc81f1b1c9dd093774.jpg",
     "static/media/Referenz 19 April 2024 KMD Herbststrasse Preview.jpg": "/static/media/Referenz 19 April 2024 KMD Herbststrasse Preview.db6be804a7f365a03880.jpg",
     "static/media/portfolio15.jpg": "/static/media/portfolio15.c83bd50ec4f15dbd1ea0.jpg",
+    "static/media/OpenSans-Medium.ttf": "/static/media/OpenSans-Medium.be793100b2ab027d9b74.ttf",
     "static/media/portfolio1-preview.jpg": "/static/media/portfolio1-preview.1ff61590506dcd9eb269.jpg",
     "static/media/portfolio4-preview.jpg": "/static/media/portfolio4-preview.5a4630a813b9fb6940c8.jpg",
     "static/media/gifts.jpg": "/static/media/gifts.5e2989cb9e925ed53910.jpg",
@@ -91,6 +92,7 @@
     "static/media/portfolio21-preview.jpg": "/static/media/portfolio21-preview.8bd6128f0714445858fd.jpg",
     "static/media/portfolio18-preview.jpg": "/static/media/portfolio18-preview.f69a04d0d0a2484dd78c.jpg",
     "static/media/remove-start.jpg": "/static/media/remove-start.7f29dd6b346cfca26f86.jpg",
+    "static/media/golos-ui_regular.woff2": "/static/media/golos-ui_regular.a1c96bd6133294a21f27.woff2",
     "static/media/tips-bride.jpg": "/static/media/tips-bride.7192bf9f9eddc34c5913.jpg",
     "static/media/tips-foto.jpg": "/static/media/tips-foto.96c96a04097d9a1c4de1.jpg",
     "static/media/remove.jpg": "/static/media/remove.9e7f0352a4b2d58f1a41.jpg",
@@ -106,12 +108,12 @@
     "static/media/telegram.svg": "/static/media/telegram.fb869422d8b05f492516b7599a216a95.svg",
     "index.html": "/index.html",
     "static/media/file-download.svg": "/static/media/file-download.c3effd218b531b1c1c030accf54203b6.svg",
-    "main.101169ca.css.map": "/static/css/main.101169ca.css.map",
+    "main.b58472f5.css.map": "/static/css/main.b58472f5.css.map",
     "main.33106be4.js.map": "/static/js/main.33106be4.js.map",
     "453.f107972d.chunk.js.map": "/static/js/453.f107972d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.101169ca.css",
+    "static/css/main.b58472f5.css",
     "static/js/main.33106be4.js"
   ]
 }
