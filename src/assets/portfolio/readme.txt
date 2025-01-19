@@ -9,3 +9,6 @@ Kraken - https://kraken.io/web-interface
 Optimi Zilla - http://optimizilla.com/
 JPEG Mini - http://www.jpegmini.com/main/shrink_photo
 Imagify - https://imagify.io/optimizer/
+
+а также для изменения габаритных размеров файла:
+ReduceImages - https://www.reduceimages.com/
