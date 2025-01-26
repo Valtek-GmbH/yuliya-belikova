@@ -49,14 +49,14 @@ function App() {
   }   
 
   // Function to change 
-  async function changeLanguage(lang) {
-    console.log(lang);
-    setLang(lang.toLowerCase());
-    // await setLanguagePreference();
+  // async function changeLanguage(lang) {
+  //   console.log(lang);
+  //   setLang(lang.toLowerCase());
+  //   // await setLanguagePreference();
     
-    const langData = await fetchLanguageData();
-    updateContent(langData);
-  }
+  //   const langData = await fetchLanguageData();
+  //   updateContent(langData);
+  // }
 
   return (
     <LanguageWrapper>
