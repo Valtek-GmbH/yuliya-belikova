@@ -3,6 +3,8 @@ import { ButtonGroup, Dropdown, DropdownButton } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { MenuUp } from "react-bootstrap-icons";
 
+import {FormattedMessage} from 'react-intl';
+
 import Selectpicker from "./Selectpicker";
 import Social from "./Social";
 
@@ -27,11 +29,11 @@ function MenuTop (props){
                 </div> 
                 
                 <DropdownButton className="menu-button col-2" as={ButtonGroup} title={<MenuUp />}>
-                    <Dropdown.Item eventKey="1"><NavLink to='/' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>HOME</NavLink></Dropdown.Item>
-                    <Dropdown.Item eventKey="2"><NavLink to='/about' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>ABOUT ME</NavLink></Dropdown.Item>
-                    <Dropdown.Item eventKey="3"><NavLink to='/portfolio' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>PORTFOLIO</NavLink></Dropdown.Item>
-                    <Dropdown.Item eventKey="4"><NavLink to='/services' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>SERVICES</NavLink></Dropdown.Item>
-                    <Dropdown.Item eventKey="5"><NavLink to='/tips' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}>TIPS</NavLink></Dropdown.Item>
+                    <Dropdown.Item eventKey="1"><NavLink to='/' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}><FormattedMessage id="menu.home" defaultMessage="Home" /></NavLink></Dropdown.Item>
+                    <Dropdown.Item eventKey="2"><NavLink to='/about' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}><FormattedMessage id="menu.about" defaultMessage="About me" /></NavLink></Dropdown.Item>
+                    <Dropdown.Item eventKey="3"><NavLink to='/portfolio' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}><FormattedMessage id="menu.portfolio" defaultMessage="Portfolio" /></NavLink></Dropdown.Item>
+                    <Dropdown.Item eventKey="4"><NavLink to='/services' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}><FormattedMessage id="menu.services" defaultMessage="Services" /></NavLink></Dropdown.Item>
+                    <Dropdown.Item eventKey="5"><NavLink to='/tips' className={({ isActive }) => "nav-link" + (isActive ? " nav-link-selected" : "")}><FormattedMessage id="menu.tips" defaultMessage="Tips" /></NavLink></Dropdown.Item>
                 </DropdownButton>
             </div>
         </div>
