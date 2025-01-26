@@ -102,11 +102,11 @@ var data = {
         },
         {
             "id": "creative",
-            "name": "Ungewöhnliches Make-up",
+            "name": "Kreatives Make-up",
             "foto": creative,
             "linkPortfolio": "/portfolio",
             "linkService": "/services",
-            "description": "Ungewöhnliches Make-up für einen besonderen Anlass. Betonen Sie Ihre Persönlichkeit, helfen Sie sich daran zu erinnern oder passen Sie den Moment /die Veranstaltung an."
+            "description": "Kreatives Make-up für einen besonderen Anlass. Betonen Sie Ihre Persönlichkeit, helfen Sie sich daran zu erinnern oder passen Sie den Moment /die Veranstaltung an."
         },
         {
             "id": "makeup-couching",
