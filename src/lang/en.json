@@ -128,5 +128,16 @@
 	"tips.bride.text": "Use these tips to be and feel irresistible on your wedding day. May this day be remembered as one of the happiest!",
 
 	"footer.copyright": "Designed by ",
-	"footer.language": "Change website language "
+	"footer.language": "Change website language ",
+
+	"impressum.name.title": "Name",
+	"impressum.name.content": "Yuliya Belikova",
+	"impressum.address.title": "Address",
+	"impressum.address.content": "Kartaeuserweg 7, 2500 Baden, Austria",
+	"impressum.phone.title": "Phone",
+	"impressum.gisa.title": "GISA number",
+	"impressum.vatid.title": "VAT ID",
+	"impressum.responsible.title": "Responsible for content",
+	"impressum.activity.title": "Professional activity",
+	"impressum.activity.content": "Color, type, style and image consulting regarding colors, clothing and accessories according to taste and visual aspects with regard to effect and appearance"
 }

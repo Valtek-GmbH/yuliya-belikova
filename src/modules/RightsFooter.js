@@ -7,7 +7,7 @@ function RightsFooter () {
         <div className="footer-menu-col col-md-4">
             <ul className="nav flex-column">
                 <li className="footer-item">
-                    <Link to='/' className='nav-item'>
+                    <Link to='/impressum' className='nav-item'>
                         <FormattedMessage id="menu.impressum" defaultMessage="Impressum" />
                     </Link>
                 </li>

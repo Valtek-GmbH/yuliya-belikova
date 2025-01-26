@@ -128,5 +128,16 @@
 	"tips.bride.text": "Воспользуйтесь этими советами, чтобы быть и чувствовать себя неотразимой в день свадьбы. Пусть этот день запомнится как один из самых счастливых!",
 
 	"footer.copyright": "Разработано и выполнено ",
-	"footer.language": "Переключение языка сайта "
+	"footer.language": "Переключение языка сайта ",
+
+	"impressum.name.title": "Имя",
+	"impressum.name.content": "Юлия Беликова",
+	"impressum.address.title": "Адрес",
+	"impressum.address.content": "Kartäuserweg 7, 2500 Baden, Österreich",
+	"impressum.phone.title": "Телефон",
+	"impressum.gisa.title": "Номер GISA",
+	"impressum.vatid.title": "Налоговый номер",
+	"impressum.responsible.title": "Ответственный за содержание",
+	"impressum.activity.title": "Профессиональная деятельность",
+	"impressum.activity.content": "Консультации по цвету, типу, стилю и имиджу относительно цветов, одежды и аксессуаров в соответствии со вкусом и визуальными аспектами с учетом эффекта и внешнего вида"
 }

@@ -128,5 +128,16 @@
 	"tips.bride.text": "Nutzen Sie diese Tipps, um am Hochzeitstag unwiderstehlich zu sein und sich unwiderstehlich zu fühlen. Möge dieser Tag als einer der glücklichsten in Erinnerung bleiben!",
 
 	"footer.copyright": "Webdesign und Entwicklung von ",
-	"footer.language": "Website-Sprache ändern "
+	"footer.language": "Website-Sprache ändern ",
+
+	"impressum.name.title": "Name",
+	"impressum.name.content": "Yuliya Belikova",
+	"impressum.address.title": "Adresse",
+	"impressum.address.content": "Kartäuserweg 7, 2500 Baden, Österreich",
+	"impressum.phone.title": "Telefon",
+	"impressum.gisa.title": "GISA-Zahl",
+	"impressum.vatid.title": "Steuernummer (VAT ID)",
+	"impressum.responsible.title": "Verantwortlich für den Inhalt",
+	"impressum.activity.title": "Berufliche Tätigkeit",
+	"impressum.activity.content": "Farb-, Typ-, Stil- und Imageberatung hinsichtlich Farben, Bekleidung und Accessoires nach geschmacklichen und optischen Gesichtspunkten hinsichtlich Wirkung und Aussehen"
 }

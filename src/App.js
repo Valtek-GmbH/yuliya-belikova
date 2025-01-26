@@ -7,6 +7,7 @@ import AboutMe from './modules/AboutMe';
 import Portfolio from './modules/Portfolio';
 import Services from './modules/Services';
 import Tips from './modules/Tips';
+import Impressum from './modules/Impressum';
 import Footer from './modules/Footer';
 import LanguageWrapper from './modules/LanguageWrapper'; 
 import './bootstrap/css/bootstrap.min.css';
@@ -67,6 +68,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/services' element={<Services />} />
         <Route path='/tips' element={<Tips />} />
+        <Route path='/impressum' element={<Impressum />} />
       </Routes>
       <Footer />
     </div>

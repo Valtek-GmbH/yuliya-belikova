@@ -291,3 +291,13 @@ code {
   right: 0;
   align-items: center;
 }
+
+.impressum-data {
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+.impressum-text {
+  padding: 0 0 0 20px
+}
