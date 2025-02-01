@@ -9,6 +9,7 @@ import logo from '../assets/logo.svg';
 function Header(props){
     return(
         <div className="header">
+            <h1 className="headerMain">MakeUp Artist Yuliya Belikova, Hochzeit styling, Business Portrait</h1>
             <div className='row'>
                 <Link to='/' className='col-md-4'>
                     <img className='logo' src={logo} alt='Logo' />

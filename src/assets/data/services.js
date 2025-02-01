@@ -94,7 +94,7 @@ var data = {
         },
         {
             "id": "wedding",
-            "name": "Hochzeit styling",
+            "name": "Hochzeitsstyling",
             "foto": wedding,
             "linkPortfolio": "/portfolio",
             "linkService": "/services",
@@ -106,7 +106,7 @@ var data = {
             "foto": creative,
             "linkPortfolio": "/portfolio",
             "linkService": "/services",
-            "description": "Kreatives Make-up für einen besonderen Anlass. Betonen Sie Ihre Persönlichkeit, helfen Sie sich daran zu erinnern oder passen Sie den Moment /die Veranstaltung an."
+            "description": "Kreatives Make-up für einen besonderen Anlass. Betonen Sie Ihre Persönlichkeit und Ihren einzigartigen Stil. Ob romantisch, auffälliges Make-up - es ist alles möglich für einen unvergesslichen Abend oder Tag."
         },
         {
             "id": "makeup-couching",
@@ -114,7 +114,7 @@ var data = {
             "foto": makeupCouchingImage,
             "linkPortfolio": "/portfolio",
             "linkService": "/services",
-            "description": "Make-up-Tutorials für sich selbst. Möchten Sie lernen, wie man sich selbst ein schönes Make–up macht - besuchen Sie eine Lektion für sich selbst oder einen Kurs aus drei Lektionen, um Ihren Stil zu finden, Ihre Fähigkeiten zu verbessern und zu lernen, wie man Bilder für verschiedene Anlässe erstellt."
+            "description": "Make-up-Tutorials für sich selbst. Möchten Sie lernen, wie man sich selbst ein schönes Make–up macht? Besuchen Sie eine Make-up Session für sich selbst oder einen Kurs aus drei Sessions, um Ihren Stil zu finden, Ihre Fähigkeiten zu verbessern und zu lernen, wie man Bilder für verschiedene Anlässe erstellt."
         },
         {
             "id": "business-portrait", 
@@ -122,7 +122,7 @@ var data = {
             "foto": business_portrait,
             "linkPortfolio": "/portfolio",
             "linkService": "/services",
-            "description": "Schöne, repräsentative, imaginäre Studiofotos, die Sie als Fachkraft oder Vertreter eines Unternehmens zeigen. Diese Fotos werden Sie oft in sozialen Netzwerken verwenden.in Netzwerken, auf Visitenkarten, auf der Website des Unternehmens usw.. Der Service wird gemeinsam mit einem Fotografen in einem modernen, schönen Studio im 2. Bezirk von Wien durchgeführt."
+            "description": "Schöne, repräsentative, imaginäre Studiofotos, die Sie als Mitarbeiter oder Vertreter eines Unternehmens zeigen. Diese Fotos werden Sie oft in sozialen Netzwerken verwenden. Im Internet, auf Visitenkarten, auf der Website des Unternehmens usw. Das Service wird gemeinsam mit einem Fotografen in einem modernen, schönen Studio im 2. Bezirk in Wien durchgeführt."
         },
         {
             "id": "Gifts",
@@ -130,7 +130,7 @@ var data = {
             "foto": gifts,
             "linkPortfolio": "/portfolio",
             "linkService": "/services",
-            "description": "Ein schönes und originelles Geschenk für Freunde, Angehörige sowie Geschäftspartner. Kaufen Sie Geschenkgutscheine für jeden Service im Wert von 50, 100, 150, 250, 400 Euro und schenken Sie Aufmerksamkeit, Inspiration und Schönheit."
+            "description": "Ein schönes und originelles Geschenk für Freunde, Angehörige sowie Geschäftspartner. Kaufen Sie Geschenkgutscheine für jede Leistung von mir im Wert von 50, 100, 150, 250, 400 Euro und schenken Sie Aufmerksamkeit, Inspiration und Schönheit."
         },
         {
             "id": "become-model", 
@@ -138,7 +138,7 @@ var data = {
             "foto": become_model,
             "linkPortfolio": "/portfolio",
             "linkService": "/services",
-            "description": "Werden Sie ein Modell für Make-up und Frisur. Ich lade die Modelle zum Make-up und zur Frisur ein, um die Qualität der Dienstleistungen zu verbessern und neue Techniken auszuarbeiten. Es ist kostenlos für das Modell. Bedingung: die Bereitschaft, das vorgeschlagene Bild zu machen, sowie Fotos im Portfolio und in sozialen Netzwerken zu veröffentlichen.Netzwerke."
+            "description": "Werden Sie ein Modell für Make-up und Frisur. Ich lade die Modelle zum Make-up und zur Frisur ein, um die Qualität meiner Dienstleistungen zu verbessern und neue Techniken zu probieren. Es ist kostenlos für das Modell. Voraussetzung: die Fotos dürfen von mir in meinem Portfolio und in sozialen Netzwerken veröffentlicht werden."
         }
     ],
     "services_ru":[

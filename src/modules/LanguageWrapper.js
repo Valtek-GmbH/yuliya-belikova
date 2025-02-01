@@ -40,9 +40,6 @@ const LanguageWrapper = (props) => {
        }
    }
 
-   console.log(navigator.languages);
-   console.log(locale);
-
    return (
        <LanguageContext.Provider value = {{locale, selectLanguage}}>
            <IntlProvider messages={messages} locale={locale}>

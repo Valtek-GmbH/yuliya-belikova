@@ -10,7 +10,6 @@ const Documentcard = function (props) {
       }
     const handleDownload = (e, link) => {
       e.preventDefault();
-      console.log(link);
       var element = document.createElement('a');
       element.setAttribute('href', link);
       element.setAttribute('download', link);

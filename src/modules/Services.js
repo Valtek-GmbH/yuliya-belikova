@@ -26,7 +26,7 @@ function Services () {
           <div className={pstn} key={service.id} id={service.id}>
             <img className="homeimg col-md-4" src={service.foto} alt={service.id}/>
             <div className="service-text col-md-7">
-              <h1>{service.name}</h1>
+              <h2>{service.name}</h2>
               <p>{service.description}</p> 
               
               <div>

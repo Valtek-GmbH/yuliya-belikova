@@ -1,6 +1,7 @@
 import {Routes, Route} from 'react-router-dom';
 import React from 'react';
 import TagManager from 'react-gtm-module';
+// import ReactGA from "react-ga4";
 import Header from './modules/Header';
 import Homepage from './modules/Homepage';
 import AboutMe from './modules/AboutMe';
@@ -21,47 +22,21 @@ function App() {
         gtmId: 'G-J4PK9E6PM3'
     };
     TagManager.initialize(tagManagerArgs);
-  }, []);   
-    /*==========================================================================
-        LANGUAGE 
-    ==========================================================================*/
-// Function to set the language preference
-  const [lang, setLang] = React.useState('en');
-
-  function updateContent(langData) {
-    document.querySelectorAll('[data-lang]').forEach(element => {
-        const key = element.getAttribute('data-lang');
-        element.textContent = langData[key];
-    });
-  }
-
-  // // Function to set the language preference
-  // function setLanguagePreference() {
-  //   localStorage.setItem('language', lang);
-  //   // document.reload();
-  // }
-
-  // Function to fetch language data
-  async function fetchLanguageData() {
-    const path = require(`./assets/language/${lang}.json`);
-    const response = await fetch(path);
-    return response.json();
-  }   
-
-  // Function to change 
-  // async function changeLanguage(lang) {
-  //   console.log(lang);
-  //   setLang(lang.toLowerCase());
-  //   // await setLanguagePreference();
-    
-  //   const langData = await fetchLanguageData();
-  //   updateContent(langData);
-  // }
+  }, []); 
+  // ReactGA.initialize([
+  //   {
+  //     trackingId: "G-N5ZDG1VE1P",
+  //   },
+  //   {
+  //     trackingId: "G-M8EPW8CKFD",
+  //   },
+  // ]);  
 
   return (
     <LanguageWrapper>
     <div className="App">
       <Header />
+      {/* <HashRouter> */}
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about' element={<AboutMe />} />
@@ -70,6 +45,7 @@ function App() {
         <Route path='/tips' element={<Tips />} />
         <Route path='/impressum' element={<Impressum />} />
       </Routes>
+      {/* </HashRouter> */}
       <Footer />
     </div>
     </LanguageWrapper>

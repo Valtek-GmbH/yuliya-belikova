@@ -9,7 +9,7 @@ const Servicecard = function (props) {
           event.preventDefault();
           document.getElementById(props.serviceId).scrollIntoView(false);
         }}/>
-        <span className="service-caption">{props.name}</span>
+        <h2 className="service-caption">{props.name}</h2>
         <div className="container">
           <div className="service-buttons row">
             <Link to={props.linkPortfolio} className="btn col-6">

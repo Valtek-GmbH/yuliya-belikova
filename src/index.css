@@ -301,3 +301,7 @@ code {
 .impressum-text {
   padding: 0 0 0 20px
 }
+
+.headerMain {
+  display: none;
+}
